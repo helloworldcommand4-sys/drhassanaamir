@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dr Hassan Aamir - Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Dr Hassan Aamir</h1>
+        <p>MBBS Student | Studying in China</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                I am an MBBS student currently studying in China.
+                I am passionate about medicine and dedicated to becoming a skilled doctor.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Education</h2>
+            <p>MBBS Program – China</p>
+        </div>
+
+        <div class="card">
+            <h2>Career Goal</h2>
+            <p>
+                To serve humanity with compassion and professionalism in the medical field.
+            </p>
+        </div>
+
+        <h2 style="color:#2c6fb7; margin-bottom:15px;">Medical Skills & Interests</h2>
+
+        <div class="flip-card-container">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Cardiology</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Understanding heart diseases, treatments, and patient care.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Neurology</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Studying nervous system disorders and brain health.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <h3>Pediatrics</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Child healthcare, growth monitoring, and immunizations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== Progress Bars ===== -->
+        <div class="card">
+            <h2>Skills Proficiency</h2>
+            <div class="progress-bar">
+                <span>Anatomy</span>
+                <div class="progress">
+                    <div class="progress-fill" data-percentage="90"></div>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <span>Physiology</span>
+                <div class="progress">
+                    <div class="progress-fill" data-percentage="85"></div>
+                </div>
+            </div>
+
+            <div class="progress-bar">
+                <span>Pharmacology</span>
+                <div class="progress">
+                    <div class="progress-fill" data-percentage="80"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== Animated Counters ===== -->
+        <div class="card">
+            <h2>Achievements</h2>
+            <div class="counters">
+                <div class="counter">
+                    <span class="number" data-target="200">0</span>
+                    <p>Study Hours</p>
+                </div>
+                <div class="counter">
+                    <span class="number" data-target="50">0</span>
+                    <p>Patients Assisted</p>
+                </div>
+                <div class="counter">
+                    <span class="number" data-target="15">0</span>
+                    <p>Research Projects</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card contact">
+            <h2>For Inquiry Contact:</h2>
+            <p><strong>Phone:</strong> +92 349 1424200</p>
+            <button onclick="showMessage()">Send Greeting</button>
+            <div id="message"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
